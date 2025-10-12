@@ -1,0 +1,22 @@
+{
+  "1000": {
+    "nested_loop_join": {
+      "algorithm": "nested_loop_join",
+      "dataset_size": 1000,
+      "second_dataset_size": 100,
+      "execution_time": 0.0041277408599853516,
+      "joined_rows": 986,
+      "complexity": "O(n\u00b2)"
+    },
+    "hash_join": {
+      "algorithm": "hash_join",
+      "dataset_size": 1000,
+      "second_dataset_size": 100,
+      "execution_time": 0.00019788742065429688,
+      "joined_rows": 986,
+      "complexity": "O(n + m)"
+    },
+    "dataset_size": 1000,
+    "timestamp": 1755737589.768593
+  }
+}

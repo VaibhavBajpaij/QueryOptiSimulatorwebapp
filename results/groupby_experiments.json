@@ -1,0 +1,20 @@
+{
+  "1000": {
+    "sorting_based_grouping": {
+      "algorithm": "sorting_based_grouping",
+      "dataset_size": 1000,
+      "execution_time": 0.0002601146697998047,
+      "num_groups": 100,
+      "complexity": "O(n log n)"
+    },
+    "hash_based_grouping": {
+      "algorithm": "hash_based_grouping",
+      "dataset_size": 1000,
+      "execution_time": 7.534027099609375e-05,
+      "num_groups": 100,
+      "complexity": "O(n)"
+    },
+    "dataset_size": 1000,
+    "timestamp": 1755737589.7631674
+  }
+}

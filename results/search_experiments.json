@@ -1,0 +1,33 @@
+{
+  "1000": {
+    "linear_search": {
+      "algorithm": "linear_search",
+      "dataset_size": 1000,
+      "execution_time": 2.0265579223632812e-05,
+      "found": true,
+      "index": 657,
+      "target": 8897,
+      "complexity": "O(n)"
+    },
+    "binary_search": {
+      "algorithm": "binary_search",
+      "dataset_size": 1000,
+      "execution_time": 3.5762786865234375e-06,
+      "found": true,
+      "index": 901,
+      "target": 8897,
+      "complexity": "O(log n)"
+    },
+    "hash_lookup": {
+      "algorithm": "hash_lookup",
+      "dataset_size": 1000,
+      "execution_time": 4.76837158203125e-07,
+      "found": true,
+      "index": 657,
+      "target": 8897,
+      "complexity": "O(1)"
+    },
+    "dataset_size": 1000,
+    "timestamp": 1755737589.7613144
+  }
+}
